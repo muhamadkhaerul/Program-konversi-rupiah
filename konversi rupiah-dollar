@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "=====Konversi Rupiah-Dollar (USD)====="
+    << endl <<endl <<endl;
+    float Rupiah;
+    cout << "Masukan Nilai Rupiah = Rp ";
+    cin >> Rupiah;
+    cout << "Hasil Konversi = USD. ";
+    cout << Rupiah/15200;
+    cin.get();
+
+    return 0;
+}
